@@ -1,11 +1,10 @@
-import { Text, SafeAreaView } from 'react-native';
-import Sobrenome from './src/Telas/Sobrenome';
+import { SafeAreaView } from 'react-native';
+import Cesta from './src/Telas/Cesta'
 
 export default function App() {
   return (
     <SafeAreaView>
-      <Text>Mariele Floriano Florencio</Text>
-      <Sobrenome sobrenome="Floriano"/>
+     <Cesta />
     </SafeAreaView>
   )
 }
